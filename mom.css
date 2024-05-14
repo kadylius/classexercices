@@ -1,0 +1,40 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://t3.ftcdn.net/jpg/05/91/55/32/360_F_591553206_K0bsOzkLvdCFdmZvg685i1ZaGGiTztXF.jpg'); /* Your background image path */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #message-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #message {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #btn-generate {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #btn-generate:hover {
+        background-color: #45a049;
+    }
+
+

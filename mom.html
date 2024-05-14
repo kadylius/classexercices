@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages of Love for Mom</title>
+    <link rel="stylesheet" href="mom.css">
+    </head>
+
+<body>
+<div id="message-container">
+    <div id="message"></div>
+    <button id="btn-generate">Click for some love</button>
+</div>
+
+<script>
+    const messages = [
+    "Thank you for always taking care off me!",
+    "I owe you the world.",
+     "You are a blessing in my life",
+     "You are kind",
+     "You are loved",
+    ];
+
+    function generateRandomMessage() {
+        const randomIndex = Math.floor(Math.random() * messages.length);
+        document.getElementById('message').innerText = messages[randomIndex];
+    }
+
+    document.getElementById('btn-generate').addEventListener('click', generateRandomMessage);
+</script>
+</body>
+</html>
